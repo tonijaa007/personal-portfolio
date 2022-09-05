@@ -6,7 +6,7 @@
 
 Use `export` as build command
 
-Osman Rahimi
+Osman
 
 ```js
 yarn export
