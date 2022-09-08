@@ -5,7 +5,7 @@ export const attributes = {
       link: '/#portofolio',
       text: 'My work',
     },
-    heading: "I'm Osman, and I create special nuts",
+    heading: "I'm Osman, and I create",
     image: '/img/hero.jpeg',
     secondButton: { icon: 'whatsapp', link: '/#contact', text: 'Contact' },
     social: {
@@ -15,14 +15,18 @@ export const attributes = {
     },
     typed: [
       { text: 'fast websites.' },
-      { text: 'beautiful logos.' },
+      { text: 'beautiful mobile applications.' },
       { text: 'great experiences.' },
     ],
   },
   about: {
     heading: 'Who am I?',
     image: '/img/about.jpeg',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi, sit amet consequat leo. Integer non dolor non elit sodales consequat. Integer tempor sollicitudin massa, vel sollicitudin ante dictum eu.\n',
+    text: `I'm a software engineer based in Vienna.
+    I love making ideas becoming a reality and have
+    some impact. Be it beautiful and user friendly
+    websites or applications and maybe in the future
+    also games 🤔`,
   },
   features: [
     {
@@ -33,7 +37,7 @@ export const attributes = {
     {
       icon: 'draw',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
-      title: 'Logo Design',
+      title: 'Mobile Applications',
     },
     {
       icon: 'xml',
@@ -47,19 +51,19 @@ export const attributes = {
         btnLink: 'https://behance.com',
         btnText: 'View on Behance',
         image: '/img/project-1.jpeg',
-        title: 'ShopoShopy',
+        title: 'Portfolio',
       },
       {
         btnLink: 'https://behance.com',
         btnText: 'View on Behance',
         image: '/img/project-2.jpeg',
-        title: 'LogoLogy',
+        title: 'Random-Color-Generator',
       },
       {
         btnLink: 'https://behance.com',
         btnText: 'View on Behance',
         image: '/img/project-3.jpeg',
-        title: 'SitoSity',
+        title: 'Meme-Scraper',
       },
       {
         btnLink: 'https://behance.com',
@@ -82,5 +86,5 @@ export const attributes = {
     ],
     title: 'My work',
   },
-  footer: { text: '© John Doe' },
+  footer: { text: '© Osman Rahimi' },
 };
